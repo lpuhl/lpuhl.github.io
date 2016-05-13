@@ -1,0 +1,71 @@
+body {
+  font: 16px Geneva, Helvetica, Sans-Serif;
+  background-color: #d4d4d4;
+}
+
+#pic {
+  float: right;
+  padding: 3px;
+}
+
+#container {
+  margin: 100px auto 60px;
+  width: 800px;
+
+}
+
+a:link {
+    text-decoration: none;
+}
+
+/* Liz Puhl */
+h1 {
+  letter-spacing: 4px;
+  font-weight: bold;
+  font-size: 36;
+  margin-right: 
+}
+
+#contact-info {
+  font-size: 14;
+}
+
+/* Section headings */
+h2 {
+  font-size: 20;
+  letter-spacing: 4px;
+}
+
+/* Jobs */
+h3 {
+  font-size: 18;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.employer {
+  float: left;
+  font-weight: bold;
+}
+
+.employer-place-date {
+  padding-bottom: 6px;
+}
+
+.city-date {
+  float: right;
+}
+
+.block-list {
+  margin-top: 0px;
+  padding-top: 0px;
+}
+
+p {
+
+  margin: 0px;
+}
+
+#mac {
+  margin-bottom: -16px;
+}
