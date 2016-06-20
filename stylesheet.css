@@ -1,18 +1,59 @@
+html, body, h1, h2, h3, h4, ul, ol, li, p, a {
+  padding: 0;
+   border: 0;
+   margin: 0;
+   font-size: 100%;
+   font: inherit;
+}
+
+@font-face  {
+  font-family: 'FiraSans-Regular';
+  src: url('fira-sans/FiraSans-Regular.otf');
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face  {
+  font-family: 'FiraSans-Regular';
+  src: url('fira-sans/FiraSans-Bold.otf');
+  font-style: normal;
+  font-weight: bold;
+}
+
+@font-face  {
+  font-family: 'FiraSans-Regular';
+  src: url('fira-sans/FiraSans-Italic.otf');
+  font-style: italic;
+  font-weight: normal;
+}
+
 body {
-  font: 16px Geneva, Helvetica, Sans-Serif;
+  font-family: 'FiraSans-Regular', Helvetica, Tahoma, sans-serif;
   background-color: #d4d4d4;
 }
 
-#pic {
-  float: right;
-  padding: 4px;
-}
-
 #container {
-  margin: 100px auto 60px;
+  background-color: #eeffcc;
+  margin: 100px auto 100px;
   width: 800px;
-
+  padding: 18px;
+  border-radius: 24px;
 }
+
+header {
+  padding: 50px 50px 0 50px;
+}
+
+main {
+  padding: 25 50px 50px 50px;
+}
+
+
+figure {
+  float: right;
+  box-shadow: 6px 6px 12px #444;
+  transform: rotate(5deg);
+}  
 
 a:link {
     text-decoration: none;
@@ -20,27 +61,45 @@ a:link {
 
 /* Liz Puhl */
 h1 {
+  font-family: 'FiraSans-Regular';
   letter-spacing: 4px;
   font-weight: bold;
-  font-size: 36;
-  margin-right: 
+  font-size: 42;
 }
 
+
 #contact-info {
-  font-size: 14;
+  font-size: 16;
+  list-style-type: none;
+  padding-left: 0;
+}
+
+section.categories {
+  padding-bottom: 20px;
+}
+
+section.job {
+  padding-bottom: 8px;
+}
+section.job:last-child {
+  padding-bottom: 0px;
 }
 
 /* Section headings */
 h2 {
+  font-weight: bold;
   font-size: 20;
   letter-spacing: 4px;
 }
 
 /* Jobs */
 h3 {
+  font-weight: bold;
   font-size: 18;
-  margin-top: 0px;
-  margin-bottom: 0px;
+}
+
+.employer-city-date {
+  padding-bottom: 16px;
 }
 
 .employer {
@@ -48,24 +107,12 @@ h3 {
   font-weight: bold;
 }
 
-.employer-place-date {
-  padding-bottom: 6px;
-}
-
 .city-date {
   float: right;
 }
 
 .block-list {
-  margin-top: 0px;
-  padding-top: 0px;
+  padding: 6px 0 0 18px;
 }
 
-p {
 
-  margin: 0px;
-}
-
-#mac {
-  margin-bottom: -16px;
-}
