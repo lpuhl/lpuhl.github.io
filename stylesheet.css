@@ -79,6 +79,7 @@ section.categories {
 section.job {
   padding-bottom: 8px;
 }
+
 section.job:last-child {
   padding-bottom: 0px;
 }
@@ -112,4 +113,5 @@ h3 {
 .block-list {
   padding: 6px 0 0 18px;
 }
+
 
