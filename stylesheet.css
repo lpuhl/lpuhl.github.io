@@ -48,7 +48,7 @@ main {
   padding: 25 50px 50px 50px;
 }
 
-figure {
+img {
   float: right;
   box-shadow: 6px 6px 12px #444;
   transform: rotate(5deg);
